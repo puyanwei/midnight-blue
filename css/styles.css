@@ -1,5 +1,9 @@
 body {
-  background: orange;
+  background: black;
+  color: #3777fd;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
