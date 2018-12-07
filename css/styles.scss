@@ -3,5 +3,27 @@ body {
     color: #3777fd;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 1rem
+    margin: 1rem;
+
+    .top {
+        font-family: 'Cabin', sans-serif;
+        font-size: 3rem;
+        max-width: 21em;
+        line-height: 0.9em;
+        .text-top {
+            span {
+                color: white;
+            }
+        }
+    }
+
+    .bottom {
+        font-family: 'Anton', sans-serif;
+        font-size: 10em;
+        img {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+    }
 }

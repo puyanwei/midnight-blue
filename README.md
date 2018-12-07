@@ -10,6 +10,14 @@ Midnight Blue's album cover is from a collection of Blue Note Jazz which all hav
 
 Images maybe changed if I am unable to find a match, but I'll try and be as close as possible.
 
+BREAKPOINTS
+small: 519px;
+medium: 767px;
+large: 1023px;
+extra-large: 1199px;
+
+The albums wont have reponsive designs so I'll improvise them like in this [video](https://youtu.be/lZ2JX_6SGNI) about minmax.
+
 ### Installation
 
 ```

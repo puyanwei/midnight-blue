@@ -5,5 +5,23 @@ body {
   grid-template-columns: 1fr;
   margin: 1rem;
 }
+body .top {
+  font-family: "Cabin", sans-serif;
+  font-size: 3rem;
+  max-width: 21em;
+  line-height: 0.9em;
+}
+body .top .text-top span {
+  color: white;
+}
+body .bottom {
+  font-family: "Anton", sans-serif;
+  font-size: 10em;
+}
+body .bottom img {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
 
 /*# sourceMappingURL=styles.css.map */
