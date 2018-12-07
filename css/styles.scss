@@ -10,6 +10,7 @@ body {
         font-size: 3rem;
         max-width: 21em;
         line-height: 0.9em;
+        transform: scaleY(1.3);
         .text-top {
             span {
                 color: white;
@@ -21,9 +22,30 @@ body {
         font-family: 'Anton', sans-serif;
         font-size: 10em;
         img {
-            width: 100px;
-            height: 100px;
             position: absolute;
+            display: block;
+            left: 0.9em;
+            top: 0.89em;
+            width: 1.07em;
+            height: 1.07em;
+            clip: rect(0, 167px, 171px, 0);
+            overflow: hidden;
+        }
+        .midnight {
+            font-size: 10rem;
+            color: #ce6fd3;
+            position: absolute;
+            top: 0.6em;
+            left: 2.7em;
+            transform: scaleY(1.3);
+        }
+        .blue {
+            font-size: 40rem;
+            position: absolute;
+            top: 0.15em;
+            left: 0;
+            transform: scaleY(1.3);
+            letter-spacing: -27px;
         }
     }
 }
