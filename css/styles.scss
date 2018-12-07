@@ -21,15 +21,23 @@ body {
     .bottom {
         font-family: 'Anton', sans-serif;
         font-size: 10em;
-        img {
+        .img-container {
+            border: 1px solid white;
             position: absolute;
             display: block;
             left: 0.9em;
-            top: 0.89em;
-            width: 1.07em;
-            height: 1.07em;
-            clip: rect(0, 167px, 171px, 0);
+            top: 0.95em;
+            width: 1.025em;
+            height: 0.935em;
+            clip: rect(0, 172px, 1, 0);
             overflow: hidden;
+            img {
+                width: 155%;
+                height: 134%;
+                position: absolute;
+                top: -26px;
+                left: -24px;
+            }
         }
         .midnight {
             font-size: 10rem;
