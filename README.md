@@ -1,3 +1,5 @@
+*Status - All Jazzed Up To Go!*
+
 # CSS Series - Midnight Blue
 
 Part of a series of work where I copy iconic graphic design layouts and make them responsive.
